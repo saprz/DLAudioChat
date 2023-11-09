@@ -21,3 +21,25 @@ D:\迅雷下载\Retranslyator-master\Retranslyator\obj\Debug\Retranslyator.cspro
 D:\迅雷下载\Retranslyator-master\Retranslyator\obj\Debug\Retranslyator.csproj.CopyComplete
 D:\迅雷下载\Retranslyator-master\Retranslyator\obj\Debug\Retranslyator.exe
 D:\迅雷下载\Retranslyator-master\Retranslyator\obj\Debug\Retranslyator.pdb
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\bin\Debug\Retranslyator.exe.config
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\bin\Debug\Retranslyator.exe
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\bin\Debug\Retranslyator.pdb
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.csproj.AssemblyReference.cache
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.Form1.resources
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.Properties.Resources.resources
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.csproj.GenerateResource.cache
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.csproj.CoreCompileInputs.cache
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.csproj.CopyComplete
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.exe
+C:\Users\DL\Desktop\DLAudioChat\Retranslyator\obj\Debug\Retranslyator.pdb
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\bin\Debug\Retranslyator.exe.config
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\bin\Debug\Retranslyator.exe
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\bin\Debug\Retranslyator.pdb
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.csproj.AssemblyReference.cache
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.Form1.resources
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.Properties.Resources.resources
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.csproj.GenerateResource.cache
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.csproj.CoreCompileInputs.cache
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.csproj.CopyComplete
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.exe
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\Retranslyator.pdb
