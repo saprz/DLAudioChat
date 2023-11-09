@@ -364,7 +364,7 @@ namespace Retranslyator
 
             if (MICcheckBox1.Checked == false)
             {
-                
+              
             }
             else
             {
@@ -387,20 +387,22 @@ namespace Retranslyator
             }
         }
 
+        //麦克风开关二号
         private void MICcheckBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (flag1 == 0) {MICcheckBox2.Checked=false; return; }
 
             if (MICcheckBox2.Checked == false)
             {
-
+               
             }
             else
             {
-
+                
             }
         }
 
+        //接收音频开关二号
         private void SoundcheckBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (flag1 == 0) { SoundcheckBox2.Checked = false; return; }
@@ -415,6 +417,7 @@ namespace Retranslyator
             }
         }
 
+        //麦克风开关三号
         private void MICcheckBox3_CheckedChanged(object sender, EventArgs e)
         {
             if (flag2 == 0) {MICcheckBox3.Checked=false; return; }
@@ -429,6 +432,7 @@ namespace Retranslyator
             }
         }
 
+        //接受音频开关三号
         private void SoundcheckBox3_CheckedChanged(object sender, EventArgs e)
         {
             if (flag2 == 0) {SoundcheckBox3.Checked=false; return; }
@@ -443,5 +447,7 @@ namespace Retranslyator
             }
         }
         #endregion
+
+        
     }
 }
