@@ -57,7 +57,7 @@ namespace DLAudioChat
                 waveOut = new WaveOut();
 
                 //
-                //违约记录设备（如果有）
+                //选择记录设备（如果有多个麦克风）
                 //
                 waveIn.DeviceNumber = 0;
 
@@ -111,7 +111,7 @@ namespace DLAudioChat
                 waveOut = new WaveOut();
 
                 //
-                //违约记录设备（如果有）
+                //选择记录设备（如果有多个麦克风）
                 //
                 waveIn2.DeviceNumber = 0;
 
@@ -152,7 +152,6 @@ namespace DLAudioChat
             }      
               
         }
-        
         //开始按钮三号
         private void button2_Click_1(object sender, EventArgs e)
         {
@@ -165,7 +164,7 @@ namespace DLAudioChat
                 waveOut = new WaveOut();
 
                 //
-                //违约记录设备（如果有）
+                //选择记录设备（如果有多个麦克风）
                 //
                 waveIn3.DeviceNumber = 0;
 
@@ -225,7 +224,6 @@ namespace DLAudioChat
 
             }
         }
-
         //停止按钮二号
         private void Stop2_Click(object sender, EventArgs e)
         {
@@ -245,8 +243,7 @@ namespace DLAudioChat
             }
             
         }
-
-        //停止按钮三号的
+        //停止按钮三号
         private void button1_Click_1(object sender, EventArgs e)
         {
             if (flag2 == 1)
@@ -372,7 +369,7 @@ namespace DLAudioChat
             {
                 INetFwPolicy2 fwPolicy = GetFirewallPolicy();
                 // 允许本地向远程IP的40016端口的UDP上传通信
-                AddAllowRule(fwPolicy, "MyUDPRule", textBox1.Text, "UDP", 40016);
+                AddBlockRule(fwPolicy, "MyUDPRule", textBox1.Text, "UDP", 40016);
             }
         }
 
