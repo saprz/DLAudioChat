@@ -1,0 +1,11 @@
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.csproj.AssemblyReference.cache
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.Form1.resources
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.csproj.GenerateResource.cache
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.csproj.CoreCompileInputs.cache
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.csproj.CopyComplete
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\bin\Debug\DLAudioChat.exe.config
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\bin\Debug\DLAudioChat.exe
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\bin\Debug\DLAudioChat.pdb
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.Properties.Resources.resources
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.exe
+C:\Users\DL\Desktop\DLAudioChat (3) (2)\Retranslyator\obj\Debug\DLAudioChat.pdb

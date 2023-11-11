@@ -8,7 +8,7 @@ using NAudio.Wave;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 using NetFwTypeLib;
 
-namespace Retranslyator
+namespace DLAudioChat
 {
     public partial class Form1 : Form
     {

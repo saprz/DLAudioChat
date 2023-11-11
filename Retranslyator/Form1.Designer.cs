@@ -1,4 +1,4 @@
-﻿namespace Retranslyator
+﻿namespace DLAudioChat
 {
     partial class Form1
     {

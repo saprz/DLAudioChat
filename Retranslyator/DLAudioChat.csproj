@@ -7,8 +7,8 @@
     <ProjectGuid>{72DC3A3A-7773-4705-B170-5D9343750ECB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Retranslyator</RootNamespace>
-    <AssemblyName>Retranslyator</AssemblyName>
+    <RootNamespace>DLAudioChat</RootNamespace>
+    <AssemblyName>DLAudioChat</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
