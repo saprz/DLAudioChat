@@ -364,11 +364,15 @@ namespace Retranslyator
 
             if (MICcheckBox1.Checked == false)
             {
-              
+                INetFwPolicy2 fwPolicy = GetFirewallPolicy();
+                // 禁止本地向远程IP的40016端口的UDP上传通信
+                AddAllowRule(fwPolicy, "MyUDPRule", textBox1.Text, "UDP", 40016);
             }
             else
             {
-                
+                INetFwPolicy2 fwPolicy = GetFirewallPolicy();
+                // 允许本地向远程IP的40016端口的UDP上传通信
+                AddAllowRule(fwPolicy, "MyUDPRule", textBox1.Text, "UDP", 40016);
             }
         }
 
@@ -448,6 +452,43 @@ namespace Retranslyator
         }
         #endregion
 
-        
+
+        //获取防火墙管理实例
+        static INetFwPolicy2 GetFirewallPolicy()
+        {
+            Type type = Type.GetTypeFromProgID("HNetCfg.FwPolicy2", false);
+            return (INetFwPolicy2)Activator.CreateInstance(type);
+        }
+        // 添加允许规则
+        static void AddAllowRule(INetFwPolicy2 fwPolicy, string ruleName, string remoteIP, string protocol, int port)
+        {
+            INetFwRule newRule = (INetFwRule)Activator.CreateInstance(Type.GetTypeFromProgID("HNetCfg.FWRule"));
+
+            newRule.Name = ruleName;
+            newRule.Action = NET_FW_ACTION_.NET_FW_ACTION_ALLOW;
+            newRule.Direction = NET_FW_RULE_DIRECTION_.NET_FW_RULE_DIR_OUT;
+            newRule.RemoteAddresses = remoteIP;
+            newRule.Protocol = (int)NET_FW_IP_PROTOCOL_.NET_FW_IP_PROTOCOL_UDP;
+            newRule.LocalPorts = port.ToString();
+            newRule.Enabled = true;
+
+            fwPolicy.Rules.Add(newRule);
+        }
+
+        // 添加阻止规则
+        static void AddBlockRule(INetFwPolicy2 fwPolicy, string ruleName, string remoteIP, string protocol, int port)
+        {
+            INetFwRule newRule = (INetFwRule)Activator.CreateInstance(Type.GetTypeFromProgID("HNetCfg.FWRule"));
+
+            newRule.Name = ruleName;
+            newRule.Action = NET_FW_ACTION_.NET_FW_ACTION_BLOCK;
+            newRule.Direction = NET_FW_RULE_DIRECTION_.NET_FW_RULE_DIR_OUT;
+            newRule.RemoteAddresses = remoteIP;
+            newRule.Protocol = (int)NET_FW_IP_PROTOCOL_.NET_FW_IP_PROTOCOL_UDP;
+            newRule.LocalPorts = port.ToString();
+            newRule.Enabled = true;
+
+            fwPolicy.Rules.Add(newRule);
+        }
     }
 }
