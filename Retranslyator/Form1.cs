@@ -78,8 +78,9 @@ namespace DLAudioChat
 
                 label1.Text = "正在与" + textBox1.Text + "通讯";
                 ip = textBox1.Text;
-                udpc = new UdpClient(40016);
-                ipep = new IPEndPoint(IPAddress.Parse(ip), 40016);
+                int port = int.Parse(textBox4.Text);
+                udpc = new UdpClient(port);
+                ipep = new IPEndPoint(IPAddress.Parse(ip), port);
 
                 udpc.Send(new Byte[1], 1, ipep);
                 recieve_thread = new Thread(recv);
@@ -131,8 +132,9 @@ namespace DLAudioChat
                 #endregion
                 if (flag1 == 1 && flag == 1) { label1.Text = "正在与" + textBox2.Text + "通讯"; }
                 ip = textBox2.Text;
-                udpc2 = new UdpClient(40015);
-                ipep2 = new IPEndPoint(IPAddress.Parse(ip), 40015);
+                int port = int.Parse(textBox5.Text);
+                udpc2 = new UdpClient(port);
+                ipep2 = new IPEndPoint(IPAddress.Parse(ip), port);
 
                 udpc2.Send(new Byte[1], 1, ipep2);
                 recieve_thread2 = new Thread(recv2);
@@ -184,8 +186,9 @@ namespace DLAudioChat
                 #endregion
                 if (flag1 == 1 && flag == 1) { label1.Text = "正在与" + textBox2.Text + "通讯"; }
                 ip = textBox3.Text;
-                udpc3 = new UdpClient(40014);
-                ipep3 = new IPEndPoint(IPAddress.Parse(ip), 40014);
+                int port = int.Parse(textBox6.Text);
+                udpc3 = new UdpClient(port);
+                ipep3 = new IPEndPoint(IPAddress.Parse(ip),port);
 
                 udpc3.Send(new Byte[1], 1, ipep3);
                 recieve_thread3 = new Thread(recv3);
@@ -488,5 +491,9 @@ namespace DLAudioChat
             fwPolicy.Rules.Add(newRule);
         }
 
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
