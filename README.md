@@ -1,7 +1,6 @@
 # DLaudiochat
 
 #### 介绍
-参考了https://github.com/ewgraf/Retranslyator
 
 基于C#和NAudio的局域网语音聊天工具
 
@@ -14,3 +13,8 @@ UDP通信，没有一个主机做服务端，只有客户端。双方均填入�
 ②压缩成mp3格式传输和播放
 
 ③UDP数据包有包头格式和传播时延
+
+### 参考了
+https://github.com/naudio/NAudio
+
+https://github.com/ewgraf/Retranslyator
